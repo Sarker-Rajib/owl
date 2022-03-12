@@ -1,0 +1,78 @@
+.owl-222{
+   background: rgba(0, 0, 0, 0.116);
+   padding: 50px;
+   .container{
+      .owl-carousel{
+
+         
+         .item{
+            height: 80vh;
+            position: relative;
+            z-index: 999;
+            padding-top: 10% ;
+
+            &::after{
+               content:"";
+               height: 100%;
+               width: 100%;
+               background: rgba(52, 141, 119, 0.842);
+               position: absolute;
+               top: 0;
+               left: 0;
+               z-index: -1;
+            }
+
+            .owl-text{
+               font-size: 40px;
+               margin-left: 50px;
+            }
+
+            .description{
+               font-size: 20px;
+               margin-left: 50px;
+               margin-right: 50px;
+               color: rgb(255, 255, 255);
+            }
+         }
+            
+            
+         .item-1{
+            background: url(../images/1.jpg) no-repeat center center/cover;
+         }
+         .item-2{
+            background: url(../images/2.jpg) no-repeat center center/cover;
+         }
+         .item-3{
+            background: url(../images/3.jpg) no-repeat center center/cover;
+         }
+         .item-4{
+            background: url(../images/4.jpg) no-repeat center center/cover;
+         }
+         .item-5{
+            background: url(../images/5.jpg) no-repeat center center/cover;
+         }
+         .item-6{
+            background: url(../images/6.jpg) no-repeat center center/cover;
+         }
+         .item-7{
+            background: url(../images/7.jpg) no-repeat center center/cover;
+         }
+         .item-8{
+            background: url(../images/8.jpg) no-repeat center center/cover;
+         }
+         .item-9{
+            background: url(../images/9.jpg) no-repeat center center/cover;
+         }
+         .item-10{
+            background: url(../images/10.jpg) no-repeat center center/cover;
+         }
+         .item-11{
+            background: url(../images/11.jpg) no-repeat center center/cover;
+         }
+         .item-12{
+            background: url(../images/12.jpg) no-repeat center center/cover;
+         }
+
+      }
+   }
+}
